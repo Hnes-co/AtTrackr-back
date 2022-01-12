@@ -8,6 +8,7 @@ const visitsRouter = require('./controllers/visits')
 const usersRouter = require('./controllers/users')
 const middleware = require('./utils/middleware')
 const logger = require('./utils/logger')
+const path = require('path')
 
 logger.info('connecting to', config.MONGODB_URI)
 
@@ -26,6 +27,13 @@ app.use(middleware.requestLogger)
 
 app.use('/api/visits', visitsRouter)
 app.use('/api/users', usersRouter)
+
+app.get('/AddLocation', (req, res) => {
+  res.sendFile(path.join(__dirname, '/build', 'index.html'))
+})
+app.get('/VisitedPlaces', (req, res) => {
+  res.sendFile(path.join(__dirname, '/build', 'index.html'))
+})
 
 app.use(middleware.unknownEndpoint)
 app.use(middleware.errorHandler)
