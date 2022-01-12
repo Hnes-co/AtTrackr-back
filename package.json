@@ -6,6 +6,9 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production node index.js",
     "dev": "cross-env NODE_ENV=development nodemon index.js",
+    "build:ui": "cd ../react-app && npm run build --prod && xcopy build ..\\mongo-backend\\build /E",
+    "deploy": "git push heroku main",
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push origin main && npm run deploy",
     "logs:prod": "heroku logs --tail",
     "lint": "eslint ."
   },
