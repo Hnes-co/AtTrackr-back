@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const visitSchema = new mongoose.Schema({
   userId: {
@@ -16,13 +16,13 @@ const visitSchema = new mongoose.Schema({
     lat: String,
     lon: String,
   }
-})
+});
 
 visitSchema.set('toJSON', {
   transform: (document, returnedObject) => {
-    returnedObject._id = returnedObject._id.toString()
-    delete returnedObject.__v
+    returnedObject._id = returnedObject._id.toString();
+    delete returnedObject.__v;
   }
-})
+});
 
-module.exports = mongoose.model('Visit', visitSchema)
+module.exports = mongoose.model('Visit', visitSchema);
