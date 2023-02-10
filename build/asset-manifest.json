@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.07320c0b.chunk.css",
-    "main.js": "/static/js/main.e1b4e8fd.chunk.js",
-    "main.js.map": "/static/js/main.e1b4e8fd.chunk.js.map",
+    "main.js": "/static/js/main.cc0d853a.chunk.js",
+    "main.js.map": "/static/js/main.cc0d853a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.03c2de18.js",
     "runtime-main.js.map": "/static/js/runtime-main.03c2de18.js.map",
-    "static/js/2.00bd77d1.chunk.js": "/static/js/2.00bd77d1.chunk.js",
-    "static/js/2.00bd77d1.chunk.js.map": "/static/js/2.00bd77d1.chunk.js.map",
+    "static/js/2.f77417c4.chunk.js": "/static/js/2.f77417c4.chunk.js",
+    "static/js/2.f77417c4.chunk.js.map": "/static/js/2.f77417c4.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.07320c0b.chunk.css.map": "/static/css/main.07320c0b.chunk.css.map",
-    "static/js/2.00bd77d1.chunk.js.LICENSE.txt": "/static/js/2.00bd77d1.chunk.js.LICENSE.txt",
+    "static/js/2.f77417c4.chunk.js.LICENSE.txt": "/static/js/2.f77417c4.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/AtTrackr map.176821cc.png",
     "static/media/traveller-edited.6009f3b0.png": "/static/media/traveller-edited.6009f3b0.png",
     "static/media/traveller.6d42be19.png": "/static/media/traveller.6d42be19.png"
   },
   "entrypoints": [
     "static/js/runtime-main.03c2de18.js",
-    "static/js/2.00bd77d1.chunk.js",
+    "static/js/2.f77417c4.chunk.js",
     "static/css/main.07320c0b.chunk.css",
-    "static/js/main.e1b4e8fd.chunk.js"
+    "static/js/main.cc0d853a.chunk.js"
   ]
 }
