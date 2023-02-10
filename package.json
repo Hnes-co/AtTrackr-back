@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "cross-env NODE_ENV=development nodemon index.js",
-    "build:ui": "rm -rf build && cd ../react-app/ && npm run build && cp -r build ../mongo-backend",
+    "build:ui": "rm -rf build && cd ../AtTrackr-front/ && npm run build && cp -r build ../AtTrackr-back",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push",
     "logs:prod": "heroku logs --tail",
     "lint": "eslint ."
